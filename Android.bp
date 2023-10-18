@@ -1097,6 +1097,15 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
+	name: "android.hardware.weaver@1.0-service.citadel",
+	owner: "google",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.weaver@1.0-service.citadel.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
 	name: "manifest_android.hardware.drm-service.widevine",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm-service.widevine.xml",
